@@ -1,0 +1,103 @@
+header {
+  display: flex;
+  align-items: center;
+  height: 3rem;
+  background-color: #faf7f0;
+  position: relative;
+}
+
+.header-icon {
+  position: absolute;
+  left: 10px;
+  height: 2.8rem;
+  width: 2.8rem;
+  display: inline-block;
+}
+
+.header-title {
+  position: absolute;
+  height: 3rem;
+  width: 100%;
+  left: 0;
+  display: inline-block;
+  text-align: center;
+}
+.title {
+  font-size: xx-large;
+  line-height: 3rem;
+}
+
+main {
+  height: calc(100vh - 3rem);
+}
+
+.my-picture-section {
+  height: 30%;
+}
+.my-picture {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 15%;
+}
+
+.article-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35%;
+}
+
+.article-image-area {
+  height: calc(100% - 20px);
+  width: 30%;
+  margin: 10px;
+  display: inline-block;
+}
+
+.article-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: 50% 15%;
+  border-radius: 5px;
+}
+
+.article-food {
+  height: calc(100% - 20px);
+  width: 65%;
+  margin: 10px;
+  display: inline-block;
+  background-color: #4a4947;
+  border-radius: 5px;
+  color: #faf7f0;
+  overflow: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.article-music {
+  height: calc(100% - 20px);
+  width: 65%;
+  margin: 10px;
+  display: inline-block;
+  background-color: #b17457;
+  border-radius: 5px;
+  color: #faf7f0;
+  overflow: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.article-food::-webkit-scrollbar .article-music::-webkit-scrollbar {
+  display: none;
+}
+
+.article-area {
+  padding: 0 10px;
+}
+.article-title {
+  font-size: 1.2rem;
+}
+.article-content {
+  font-size: 18px;
+}
