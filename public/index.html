@@ -1,9 +1,161 @@
 <!DOCTYPE html>
+<!-- color palett -->
+<!-- #FAF7F0 -->
+<!-- #D8D2C2 -->
+<!-- #B17457 -->
+<!-- #4A4947 -->
+
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title></title>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <title>Landing page</title>
   </head>
-  <body></body>
+  <body style="margin: 0; height: 100vh; background-color: #d8d2c2">
+    <header
+      style="
+        display: flex;
+        align-items: center;
+        height: 3rem;
+        background-color: #faf7f0;
+        position: relative;
+      "
+    >
+      <div
+        style="
+          position: absolute;
+          left: 10px;
+          height: 2.8rem;
+          width: 2.8rem;
+          display: inline-block;
+        "
+      >
+        <img src="./favicon.ico" alt="favicon" style="width: 100%" />
+      </div>
+      <div
+        style="
+          position: absolute;
+          height: 3rem;
+          width: 100%;
+          left: 0;
+          display: inline-block;
+          text-align: center;
+        "
+      >
+        <strong style="font-size: xx-large; line-height: 3rem"
+          >Kansuke Ito</strong
+        >
+      </div>
+    </header>
+    <main style="height: calc(100vh - 3rem)">
+      <!-- my picture -->
+      <section style="height: 30%">
+        <img
+          src="./myphoto.jpg"
+          alt="my photo"
+          style="
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: 50% 15%;
+          "
+        />
+      </section>
+
+      <!-- my favorite food -->
+      <section
+        style="
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 35%;
+        "
+      >
+        <div
+          style="
+            height: calc(100% - 20px);
+            width: 30%;
+            margin: 10px;
+            display: inline-block;
+          "
+        >
+          <img
+            src="./favorite_food.jpeg"
+            alt="favorite food"
+            style="
+              height: 100%;
+              width: 100%;
+              object-fit: cover;
+              object-position: 50% 15%;
+              border-radius: 5px;
+            "
+          />
+        </div>
+        <article
+          style="
+            height: calc(100% - 20px);
+            width: 65%;
+            margin: 10px;
+            display: inline-block;
+            background-color: #4a4947;
+            border-radius: 5px;
+            color: #faf7f0;
+          "
+        >
+          <div style="padding-left: 10px">
+            <h3 style="font-size: 1rem">My favorite food - Potate</h3>
+            <p>aaaaa</p>
+          </div>
+        </article>
+      </section>
+
+      <!-- my favorite music -->
+      <section
+        style="
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 35%;
+        "
+      >
+        <article
+          style="
+            height: calc(100% - 20px);
+            width: 65%;
+            margin: 10px;
+            display: inline-block;
+            background-color: #b17457;
+            border-radius: 5px;
+            color: #faf7f0;
+          "
+        >
+          <div style="padding-left: 10px">
+            <h3 style="font-size: 1rem">My favorite music - Yvette Young</h3>
+            <p>aaaaa</p>
+          </div>
+        </article>
+        <div
+          style="
+            height: calc(100% - 20px);
+            width: 30%;
+            margin: 10px;
+            display: inline-block;
+          "
+        >
+          <img
+            src="./music.jpg"
+            alt="favorite music"
+            style="
+              height: 100%;
+              width: 100%;
+              object-fit: cover;
+              object-position: 50% 15%;
+              border-radius: 5px;
+            "
+          />
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
